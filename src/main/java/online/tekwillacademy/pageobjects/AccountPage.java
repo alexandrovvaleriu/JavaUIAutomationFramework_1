@@ -20,4 +20,8 @@ public class AccountPage extends Page{
         System.out.println("The log out btn was clicked");
     }
 
+    public boolean isLogOutButtonDisplayed(){
+        return logOutBtn.isDisplayed();
+    }
+
 }
